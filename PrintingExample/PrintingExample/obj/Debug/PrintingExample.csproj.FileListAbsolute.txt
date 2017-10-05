@@ -1,0 +1,9 @@
+\\FSD\usrhome\d-g\fordt\GitHub\151ClassExamples\PrintingExample\PrintingExample\bin\Debug\PrintingExample.exe.config
+\\FSD\usrhome\d-g\fordt\GitHub\151ClassExamples\PrintingExample\PrintingExample\bin\Debug\PrintingExample.exe
+\\FSD\usrhome\d-g\fordt\GitHub\151ClassExamples\PrintingExample\PrintingExample\bin\Debug\PrintingExample.pdb
+\\FSD\usrhome\d-g\fordt\GitHub\151ClassExamples\PrintingExample\PrintingExample\obj\Debug\PrintingExample.csprojResolveAssemblyReference.cache
+\\FSD\usrhome\d-g\fordt\GitHub\151ClassExamples\PrintingExample\PrintingExample\obj\Debug\PrintingExample.Properties.Resources.resources
+\\FSD\usrhome\d-g\fordt\GitHub\151ClassExamples\PrintingExample\PrintingExample\obj\Debug\PrintingExample.csproj.GenerateResource.Cache
+\\FSD\usrhome\d-g\fordt\GitHub\151ClassExamples\PrintingExample\PrintingExample\obj\Debug\PrintingExample.exe
+\\FSD\usrhome\d-g\fordt\GitHub\151ClassExamples\PrintingExample\PrintingExample\obj\Debug\PrintingExample.pdb
+\\FSD\usrhome\d-g\fordt\GitHub\151ClassExamples\PrintingExample\PrintingExample\obj\Debug\PrintingExample.Form1.resources
