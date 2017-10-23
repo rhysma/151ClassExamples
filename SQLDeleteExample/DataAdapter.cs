@@ -13,7 +13,7 @@ namespace SqlDelete
         //Data Source is the server STUSQL
         //Initial Catalog is the name of the database (students use student ID)
         //Integrated Security is Windows Authentication and no username/password required
-        static SqlConnection oConn = new SqlConnection("Data Source=stusql.ckwia8qkgyyj.us-east-1.rds.amazonaws.com:1433 ;Initial Catalog=fordt;User ID=fordt;Password=G0dSaveTiff2117");
+        static SqlConnection oConn = new SqlConnection("Data Source=stusql.ckwia8qkgyyj.us-east-1.rds.amazonaws.com:1433 ;Initial Catalog=fordt;User ID=<yourIDhere>;Password=<yourpasshere>");
         static List<Employee> response;
 
         //method to connect to the DB
