@@ -1,0 +1,35 @@
+\\fsd\usrhome\A-C\archert\Visual Studio 2008\Projects\splash\splash\bin\Debug\splash.exe
+\\fsd\usrhome\A-C\archert\Visual Studio 2008\Projects\splash\splash\bin\Debug\splash.pdb
+\\fsd\usrhome\A-C\archert\Visual Studio 2008\Projects\splash\splash\obj\Debug\ResolveAssemblyReference.cache
+\\fsd\usrhome\A-C\archert\Visual Studio 2008\Projects\splash\splash\obj\Debug\splash.frmSplash.resources
+\\fsd\usrhome\A-C\archert\Visual Studio 2008\Projects\splash\splash\obj\Debug\splash.Properties.Resources.resources
+\\fsd\usrhome\A-C\archert\Visual Studio 2008\Projects\splash\splash\obj\Debug\splash.csproj.GenerateResource.Cache
+\\fsd\usrhome\A-C\archert\Visual Studio 2008\Projects\splash\splash\obj\Debug\splash.exe
+\\fsd\usrhome\A-C\archert\Visual Studio 2008\Projects\splash\splash\obj\Debug\splash.pdb
+\\fsd\usrhome\A-C\archert\Visual Studio 2008\Projects\splash\splash\obj\Debug\splash.Form1.resources
+S:\CIS\CIS151\CourseData\splash\splash\obj\Debug\splash.exe
+S:\CIS\CIS151\CourseData\splash\splash\obj\Debug\splash.pdb
+S:\CIS\CIS151\CourseData\splash\splash\bin\Debug\splash.exe
+S:\CIS\CIS151\CourseData\splash\splash\bin\Debug\splash.pdb
+S:\CIS\CIS151\CourseData\splash\splash\obj\Debug\ResolveAssemblyReference.cache
+S:\CIS\CIS151\CourseData\splash\splash\obj\Debug\splash.Form1.resources
+S:\CIS\CIS151\CourseData\splash\splash\obj\Debug\splash.frmSplash.resources
+S:\CIS\CIS151\CourseData\splash\splash\obj\Debug\splash.Properties.Resources.resources
+S:\CIS\CIS151\CourseData\splash\splash\obj\Debug\splash.csproj.GenerateResource.Cache
+\\fsd\usrhome\A-C\archert\ClassMaterials\2011-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.exe
+\\fsd\usrhome\A-C\archert\ClassMaterials\2011-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.pdb
+\\fsd\usrhome\A-C\archert\ClassMaterials\2011-Fall\CIS151\S Drive\splash\splash\bin\Debug\splash.exe
+\\fsd\usrhome\A-C\archert\ClassMaterials\2011-Fall\CIS151\S Drive\splash\splash\bin\Debug\splash.pdb
+\\fsd\usrhome\A-C\archert\ClassMaterials\2011-Fall\CIS151\S Drive\splash\splash\obj\Debug\ResolveAssemblyReference.cache
+\\fsd\usrhome\A-C\archert\ClassMaterials\2011-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.Form1.resources
+\\fsd\usrhome\A-C\archert\ClassMaterials\2011-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.frmSplash.resources
+\\fsd\usrhome\A-C\archert\ClassMaterials\2011-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.Properties.Resources.resources
+\\fsd\usrhome\A-C\archert\ClassMaterials\2011-Fall\CIS151\S Drive\splash\splash\obj\Debug\GenerateResource-ResGen.read.1.tlog
+\\fsd\usrhome\A-C\archert\ClassMaterials\2011-Fall\CIS151\S Drive\splash\splash\obj\Debug\GenerateResource-ResGen.write.1.tlog
+\\FSD\usrhome\d-g\fordt\ClassMaterials\2012-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.exe
+\\FSD\usrhome\d-g\fordt\ClassMaterials\2012-Fall\CIS151\S Drive\splash\splash\bin\Debug\splash.exe
+\\FSD\usrhome\d-g\fordt\ClassMaterials\2012-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.csprojResolveAssemblyReference.cache
+\\FSD\usrhome\d-g\fordt\ClassMaterials\2012-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.Form1.resources
+\\FSD\usrhome\d-g\fordt\ClassMaterials\2012-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.frmSplash.resources
+\\FSD\usrhome\d-g\fordt\ClassMaterials\2012-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.Properties.Resources.resources
+\\FSD\usrhome\d-g\fordt\ClassMaterials\2012-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.csproj.GenerateResource.Cache
