@@ -1,0 +1,12 @@
+\\fsd\usrhome\d-g\fordt\visual studio 2013\Projects\Serialization\Serialization\bin\Debug\Serialization.exe.config
+\\fsd\usrhome\d-g\fordt\visual studio 2013\Projects\Serialization\Serialization\bin\Debug\Serialization.exe
+\\fsd\usrhome\d-g\fordt\visual studio 2013\Projects\Serialization\Serialization\bin\Debug\Serialization.pdb
+\\fsd\usrhome\d-g\fordt\visual studio 2013\Projects\Serialization\Serialization\obj\Debug\Serialization.csprojResolveAssemblyReference.cache
+\\fsd\usrhome\d-g\fordt\visual studio 2013\Projects\Serialization\Serialization\obj\Debug\Serialization.exe
+\\fsd\usrhome\d-g\fordt\visual studio 2013\Projects\Serialization\Serialization\obj\Debug\Serialization.pdb
+C:\Users\fordt\OneDrive - Ozarks Technical Community College\Documents\Visual Studio 2013\Projects\Serialization\Serialization\bin\Debug\Serialization.exe.config
+C:\Users\fordt\OneDrive - Ozarks Technical Community College\Documents\Visual Studio 2013\Projects\Serialization\Serialization\bin\Debug\Serialization.exe
+C:\Users\fordt\OneDrive - Ozarks Technical Community College\Documents\Visual Studio 2013\Projects\Serialization\Serialization\bin\Debug\Serialization.pdb
+C:\Users\fordt\OneDrive - Ozarks Technical Community College\Documents\Visual Studio 2013\Projects\Serialization\Serialization\obj\Debug\Serialization.csprojAssemblyReference.cache
+C:\Users\fordt\OneDrive - Ozarks Technical Community College\Documents\Visual Studio 2013\Projects\Serialization\Serialization\obj\Debug\Serialization.exe
+C:\Users\fordt\OneDrive - Ozarks Technical Community College\Documents\Visual Studio 2013\Projects\Serialization\Serialization\obj\Debug\Serialization.pdb
