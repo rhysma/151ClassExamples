@@ -1,0 +1,9 @@
+C:\Users\fordt\source\repos\PrintFromFile\PrintFromFile\bin\Release\PrintFromFile.exe.config
+C:\Users\fordt\source\repos\PrintFromFile\PrintFromFile\bin\Release\PrintFromFile.exe
+C:\Users\fordt\source\repos\PrintFromFile\PrintFromFile\bin\Release\PrintFromFile.pdb
+C:\Users\fordt\source\repos\PrintFromFile\PrintFromFile\obj\Release\PrintFromFile.Form1.resources
+C:\Users\fordt\source\repos\PrintFromFile\PrintFromFile\obj\Release\PrintFromFile.Properties.Resources.resources
+C:\Users\fordt\source\repos\PrintFromFile\PrintFromFile\obj\Release\PrintFromFile.csproj.GenerateResource.cache
+C:\Users\fordt\source\repos\PrintFromFile\PrintFromFile\obj\Release\PrintFromFile.csproj.CoreCompileInputs.cache
+C:\Users\fordt\source\repos\PrintFromFile\PrintFromFile\obj\Release\PrintFromFile.exe
+C:\Users\fordt\source\repos\PrintFromFile\PrintFromFile\obj\Release\PrintFromFile.pdb
