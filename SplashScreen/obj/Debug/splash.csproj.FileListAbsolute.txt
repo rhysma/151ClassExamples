@@ -33,3 +33,12 @@ S:\CIS\CIS151\CourseData\splash\splash\obj\Debug\splash.csproj.GenerateResource.
 \\FSD\usrhome\d-g\fordt\ClassMaterials\2012-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.frmSplash.resources
 \\FSD\usrhome\d-g\fordt\ClassMaterials\2012-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.Properties.Resources.resources
 \\FSD\usrhome\d-g\fordt\ClassMaterials\2012-Fall\CIS151\S Drive\splash\splash\obj\Debug\splash.csproj.GenerateResource.Cache
+C:\Users\fordt\Dropbox\Software\Github\151ClassExamples\SplashScreen\bin\Debug\splash.exe
+C:\Users\fordt\Dropbox\Software\Github\151ClassExamples\SplashScreen\bin\Debug\splash.pdb
+C:\Users\fordt\Dropbox\Software\Github\151ClassExamples\SplashScreen\obj\Debug\splash.csprojAssemblyReference.cache
+C:\Users\fordt\Dropbox\Software\Github\151ClassExamples\SplashScreen\obj\Debug\splash.Form1.resources
+C:\Users\fordt\Dropbox\Software\Github\151ClassExamples\SplashScreen\obj\Debug\splash.frmSplash.resources
+C:\Users\fordt\Dropbox\Software\Github\151ClassExamples\SplashScreen\obj\Debug\splash.Properties.Resources.resources
+C:\Users\fordt\Dropbox\Software\Github\151ClassExamples\SplashScreen\obj\Debug\splash.csproj.GenerateResource.cache
+C:\Users\fordt\Dropbox\Software\Github\151ClassExamples\SplashScreen\obj\Debug\splash.exe
+C:\Users\fordt\Dropbox\Software\Github\151ClassExamples\SplashScreen\obj\Debug\splash.pdb
