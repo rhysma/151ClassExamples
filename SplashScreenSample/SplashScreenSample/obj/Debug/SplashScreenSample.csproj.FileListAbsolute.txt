@@ -1,0 +1,10 @@
+C:\Users\fordt\source\repos\SplashScreenSample\SplashScreenSample\bin\Debug\SplashScreenSample.exe.config
+C:\Users\fordt\source\repos\SplashScreenSample\SplashScreenSample\bin\Debug\SplashScreenSample.exe
+C:\Users\fordt\source\repos\SplashScreenSample\SplashScreenSample\bin\Debug\SplashScreenSample.pdb
+C:\Users\fordt\source\repos\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.csprojAssemblyReference.cache
+C:\Users\fordt\source\repos\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.Form1.resources
+C:\Users\fordt\source\repos\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.Properties.Resources.resources
+C:\Users\fordt\source\repos\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.splashForm.resources
+C:\Users\fordt\source\repos\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.csproj.GenerateResource.cache
+C:\Users\fordt\source\repos\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.exe
+C:\Users\fordt\source\repos\SplashScreenSample\SplashScreenSample\obj\Debug\SplashScreenSample.pdb
