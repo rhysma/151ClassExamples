@@ -1,0 +1,6 @@
+C:\Users\fordt\source\repos\XMLtoObject\XMLtoObject\obj\Debug\XMLtoObject.csprojAssemblyReference.cache
+C:\Users\fordt\source\repos\XMLtoObject\XMLtoObject\bin\Debug\XMLtoObject.exe.config
+C:\Users\fordt\source\repos\XMLtoObject\XMLtoObject\bin\Debug\XMLtoObject.exe
+C:\Users\fordt\source\repos\XMLtoObject\XMLtoObject\bin\Debug\XMLtoObject.pdb
+C:\Users\fordt\source\repos\XMLtoObject\XMLtoObject\obj\Debug\XMLtoObject.exe
+C:\Users\fordt\source\repos\XMLtoObject\XMLtoObject\obj\Debug\XMLtoObject.pdb
