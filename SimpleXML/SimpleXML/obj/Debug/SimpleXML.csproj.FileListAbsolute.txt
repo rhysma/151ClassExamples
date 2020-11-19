@@ -1,0 +1,5 @@
+C:\Users\fordt\source\repos\SimpleXML\SimpleXML\bin\Debug\SimpleXML.exe.config
+C:\Users\fordt\source\repos\SimpleXML\SimpleXML\bin\Debug\SimpleXML.exe
+C:\Users\fordt\source\repos\SimpleXML\SimpleXML\bin\Debug\SimpleXML.pdb
+C:\Users\fordt\source\repos\SimpleXML\SimpleXML\obj\Debug\SimpleXML.exe
+C:\Users\fordt\source\repos\SimpleXML\SimpleXML\obj\Debug\SimpleXML.pdb
