@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QQDdckfV/QvzhkLYRoWEVmaNxpalGby24bP6MYwwkdRy2iKPYXUT/uyjGMRkkIutBntR31Ho7GoDkwzVu4bryQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fordt\\Dropbox\\Software\\Github\\151ClassExamples\\DynamoDB_intro\\DynamoDB_intro\\DynamoDB_intro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fordt\\.nuget\\packages\\awssdk.core\\3.3.24\\awssdk.core.3.3.24.nupkg.sha512",
+    "C:\\Users\\fordt\\.nuget\\packages\\awssdk.dynamodbv2\\3.3.9\\awssdk.dynamodbv2.3.3.9.nupkg.sha512",
+    "C:\\Users\\fordt\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
