@@ -16,5 +16,11 @@ namespace SplashScreenClassExample
         {
             InitializeComponent();
         }
+
+        private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //exit application when form is closed
+            Application.Exit();
+        }
     }
 }

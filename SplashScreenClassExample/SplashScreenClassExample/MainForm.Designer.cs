@@ -50,6 +50,7 @@ namespace SplashScreenClassExample
             this.Controls.Add(this.label1);
             this.Name = "MainForm";
             this.Text = "MainForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
