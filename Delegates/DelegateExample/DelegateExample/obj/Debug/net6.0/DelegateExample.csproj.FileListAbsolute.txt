@@ -1,0 +1,15 @@
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\bin\Debug\net6.0\DelegateExample.exe
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\bin\Debug\net6.0\DelegateExample.deps.json
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\bin\Debug\net6.0\DelegateExample.runtimeconfig.json
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\bin\Debug\net6.0\DelegateExample.dll
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\bin\Debug\net6.0\DelegateExample.pdb
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\obj\Debug\net6.0\DelegateExample.csproj.AssemblyReference.cache
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\obj\Debug\net6.0\DelegateExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\obj\Debug\net6.0\DelegateExample.AssemblyInfoInputs.cache
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\obj\Debug\net6.0\DelegateExample.AssemblyInfo.cs
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\obj\Debug\net6.0\DelegateExample.csproj.CoreCompileInputs.cache
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\obj\Debug\net6.0\DelegateExample.dll
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\obj\Debug\net6.0\refint\DelegateExample.dll
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\obj\Debug\net6.0\DelegateExample.pdb
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\obj\Debug\net6.0\DelegateExample.genruntimeconfig.cache
+C:\Users\rhysm\source\repos\DelegateExample\DelegateExample\obj\Debug\net6.0\ref\DelegateExample.dll
