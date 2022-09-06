@@ -1,0 +1,15 @@
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\bin\Debug\net6.0\EventsExample.exe
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\bin\Debug\net6.0\EventsExample.deps.json
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\bin\Debug\net6.0\EventsExample.runtimeconfig.json
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\bin\Debug\net6.0\EventsExample.dll
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\bin\Debug\net6.0\EventsExample.pdb
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\obj\Debug\net6.0\EventsExample.csproj.AssemblyReference.cache
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\obj\Debug\net6.0\EventsExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\obj\Debug\net6.0\EventsExample.AssemblyInfoInputs.cache
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\obj\Debug\net6.0\EventsExample.AssemblyInfo.cs
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\obj\Debug\net6.0\EventsExample.csproj.CoreCompileInputs.cache
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\obj\Debug\net6.0\EventsExample.dll
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\obj\Debug\net6.0\refint\EventsExample.dll
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\obj\Debug\net6.0\EventsExample.pdb
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\obj\Debug\net6.0\EventsExample.genruntimeconfig.cache
+C:\Users\rhysm\source\repos\EventsExample\EventsExample\obj\Debug\net6.0\ref\EventsExample.dll
