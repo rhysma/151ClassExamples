@@ -1,0 +1,6 @@
+@MegaTravelAPI_HostAddress = http://localhost:5234
+
+GET {{MegaTravelAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
