@@ -1,16 +1,16 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using MegaTravelAPI.Controllers;
+﻿
 using MegaTravelAPI.Data;
 using MegaTravelAPI.Models;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+
+
+
 
 [TestClass]
-public sealed class UserControllerIntegrationTests
+public sealed class UserControllerTests
 {
+
     private IConfiguration _config = null!;
 
     [TestInitialize]
@@ -63,4 +63,9 @@ public sealed class UserControllerIntegrationTests
         Assert.AreEqual(500, result.StatusCode, "Expected a failure code.");
         Assert.AreEqual("Update Failed", result.Message);
     }
+
+   
+
+
+
 }

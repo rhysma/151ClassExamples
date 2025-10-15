@@ -319,13 +319,7 @@ namespace MegaTravelAPI.Data
                     }
 
 
-
-
-
-
                 }
-
-
 
             }
             catch (Exception ex)

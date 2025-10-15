@@ -34,6 +34,8 @@ namespace MegaTravelAPI.Controllers
 
         }
 
+
+
         [HttpGet("GetUsers", Name = "GetUsers")]
         [AllowAnonymous]
         public async Task<GetUsersResponseModel> GetAllUsers()
