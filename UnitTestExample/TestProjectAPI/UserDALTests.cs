@@ -4,17 +4,18 @@
 // - ASP.NET Core MVC: for controller and IActionResult testing.
 // - MegaTravelAPI.*: for our real data models and interfaces.
 // - System.*: for general .NET classes and async support.
+using MegaTravelAPI.Data;
 using MegaTravelAPI.IRepository;
 using MegaTravelAPI.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
-using MegaTravelAPI.Data;
-using Microsoft.Extensions.Configuration;
-using System;
 using System.Threading.Tasks;
 
 // ================================
@@ -257,4 +258,164 @@ public class UserController_EditProfile_Tests
         // Verify the mock DAL was actually called once with the correct user ID.
         mockDal.Verify(d => d.UpdateUserRecord(It.Is<UserData>(u => u.UserId == 1)), Times.Once);
     }
+
+    [TestMethod]
+    public async Task GetTripsByUser_ReturnsOnlyTripsForThatUser()
+    {
+        // -----------------------------
+        // ARRANGE: Set up our test environment
+        // -----------------------------
+
+        // Create a unique name for our in-memory database.
+        // Each test run gets its own isolated "fake" database to avoid data mixing.
+        var dbName = Guid.NewGuid().ToString();
+
+        // Simulate an application configuration source.
+        // This lets MegaTravelContext read settings as if they came from appsettings.json.
+        var dict = new Dictionary<string, string?> { { "MegaTravel:DatabaseConnectionString", "InMemory" } };
+        var config = new ConfigurationBuilder().AddInMemoryCollection(dict).Build();
+
+        // Build the EF Core DbContext options and tell EF to use an in-memory database.
+        // No real SQL Server is needed — the data is stored temporarily in memory.
+        var options = new DbContextOptionsBuilder<MegaTravelContext>()
+            .UseInMemoryDatabase(databaseName: dbName)
+            .Options;
+
+        // Create a new database context using the in-memory setup.
+        // "using var" ensures the context is properly disposed at the end of the test.
+        using var context = new MegaTravelContext(options, config);
+
+        // -----------------------------
+        // SEED REQUIRED DATA
+        // -----------------------------
+
+        // 1️⃣ Add test Users
+        // These represent customers booking trips.
+        // EF Core requires all non-nullable fields to have values,
+        // so we fill in realistic data for both users.
+        context.Users.AddRange(
+            new User
+            {
+                UserId = 1,
+                FirstName = "John",
+                LastName = "Smith",
+                Email = "john.smith@example.com",
+                Street1 = "123 Main St",
+                City = "Springfield",
+                State = "MO",
+                ZipCode = 65802,
+                Phone = "5551112222"
+            },
+            new User
+            {
+                UserId = 2,
+                FirstName = "Mary",
+                LastName = "Jones",
+                Email = "mary.jones@example.com",
+                Street1 = "456 Oak Ave",
+                City = "Springfield",
+                State = "MO",
+                ZipCode = 65803,
+                Phone = "5552223333"
+            }
+        );
+
+        // 2️⃣ Add test Agents
+        // Agents represent travel agents assigned to manage trips.
+        // OfficeLocation and Phone are required fields, so we include them.
+        context.Agents.AddRange(
+            new Agent
+            {
+                AgentId = 1,
+                FirstName = "Agent",
+                LastName = "One",
+                OfficeLocation = "Springfield HQ",
+                Phone = "5557778888"
+            },
+            new Agent
+            {
+                AgentId = 2,
+                FirstName = "Agent",
+                LastName = "Two",
+                OfficeLocation = "Kansas City Office",
+                Phone = "5559990000"
+            }
+        );
+
+        // 3️⃣ Add test Trips
+        // Each trip connects a User and an Agent.
+        // We're creating 3 trips — 2 for UserID 1 and 1 for UserID 2.
+        // Later we’ll verify that the DAL correctly returns only the first 2.
+        context.Trips.AddRange(
+            new Trip
+            {
+                TripId = 1,
+                UserId = 1,
+                AgentId = 1,
+                TripName = "Beach Getaway",
+                Location = "Miami",
+                StartDate = DateTime.UtcNow,
+                EndDate = DateTime.UtcNow.AddDays(5),
+                NumAdults = 2,
+                NumChildren = 0
+            },
+            new Trip
+            {
+                TripId = 2,
+                UserId = 1,
+                AgentId = 1,
+                TripName = "Mountain Retreat",
+                Location = "Aspen",
+                StartDate = DateTime.UtcNow.AddDays(10),
+                EndDate = DateTime.UtcNow.AddDays(15),
+                NumAdults = 2,
+                NumChildren = 2
+            },
+            new Trip
+            {
+                TripId = 3,
+                UserId = 2,
+                AgentId = 2,
+                TripName = "City Tour",
+                Location = "New York",
+                StartDate = DateTime.UtcNow.AddDays(20),
+                EndDate = DateTime.UtcNow.AddDays(25),
+                NumAdults = 1,
+                NumChildren = 1
+            }
+        );
+
+        // Commit all seeded data to the in-memory database.
+        context.SaveChanges();
+
+        // -----------------------------
+        // ACT: Call the method under test
+        // -----------------------------
+
+        // Create the Data Access Layer object (DAL) using our fake context and config.
+        // This is the same class the real API controller would use.
+        var dal = new UserDAL(context, config);
+
+        // Call the method we’re testing — it should return only trips for the given user.
+        var result = dal.GetTripsByUser(1);
+
+        // -----------------------------
+        // ASSERT: Verify expected outcomes
+        // -----------------------------
+
+        // 1️⃣ Make sure the DAL didn’t return null (a broken query would do that).
+        Assert.IsNotNull(result, "DAL returned null.");
+
+        // 2️⃣ There should be exactly 2 trips for User 1.
+        Assert.AreEqual(2, result.Count, "Expected 2 trips for User 1.");
+
+        // 3️⃣ Double-check that every returned trip belongs to User 1.
+        Assert.IsTrue(result.All(t => t.UserId == 1), "All trips should belong to User 1.");
+
+        // If all assertions pass, it confirms:
+        // ✅ The DAL filters correctly by user ID.
+        // ✅ EF Core relationships are working.
+        // ✅ Our seeding and context setup behave like a real database.
+    }
+
 }
